@@ -29,6 +29,10 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  # s.swift_version = "5.0"
+  s.requires_arc = true
+  s.frameworks = 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage',
+    'CoreLocation','CoreTelephony', 'GLKit','QuartzCore', 'WebKit'
 
   s.source_files = '${POD_NAME}/Classes/**/*'
   
