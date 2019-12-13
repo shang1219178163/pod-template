@@ -54,9 +54,9 @@ module Pod
       # or a framework won't be created
       `touch Pod/Classes/ReplaceMe.swift`
 
-      # The Podspec should be 8.0 instead of 7.0
+      # The Podspec should be 9.0 instead of 8.0
       text = File.read("NAME.podspec")
-      text.gsub!("7.0", "8.0")
+      text.gsub!("8.0", "9.0")
       File.open("NAME.podspec", "w") { |file| file.puts text }
 
       # remove podspec for osx
