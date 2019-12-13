@@ -10,6 +10,7 @@
 		146050B923A315FA00C10F34 /* CPDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146050B823A315FA00C10F34 /* CPDHomeViewController.m */; };
 		1460510223A3266900C10F34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1460510423A3266900C10F34 /* InfoPlist.strings */; };
 		1460510623A3267500C10F34 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1460510823A3267500C10F34 /* Localizable.strings */; };
+		1460510C23A3290A00C10F34 /* NSBundle+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1460510B23A3290A00C10F34 /* NSBundle+Ex.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -42,6 +43,8 @@
 		1460510523A3266F00C10F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1460510723A3267500C10F34 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		1460510923A3267900C10F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1460510A23A3290A00C10F34 /* NSBundle+Ex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Ex.h"; sourceTree = "<group>"; };
+		1460510B23A3290A00C10F34 /* NSBundle+Ex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Ex.m"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PROJECT_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PROJECT_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,6 +124,8 @@
 				6003F59D195388D20070C39A /* CPDAppDelegate.m */,
 				146050B723A315FA00C10F34 /* CPDHomeViewController.h */,
 				146050B823A315FA00C10F34 /* CPDHomeViewController.m */,
+				1460510A23A3290A00C10F34 /* NSBundle+Ex.h */,
+				1460510B23A3290A00C10F34 /* NSBundle+Ex.m */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for PROJECT";
@@ -289,6 +294,7 @@
 				6003F59E195388D20070C39A /* CPDAppDelegate.m in Sources */,
 				146050B923A315FA00C10F34 /* CPDHomeViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				1460510C23A3290A00C10F34 /* NSBundle+Ex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

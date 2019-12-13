@@ -7,6 +7,7 @@
 //
 
 #import "CPDHomeViewController.h"
+#import "NSBundle+Ex.h"
 
 @interface CPDHomeViewController ()
 
@@ -18,7 +19,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 //    self.title = @"主界面";
-    self.title = NSLocalizedString(@"主界面", nil);
+//    self.title = NSLocalizedString(@"主界面", nil);
+    self.title = NNLocalizedString(@"主界面", nil);
 }
 
 - (void)viewWillAppear:(BOOL)animated{
