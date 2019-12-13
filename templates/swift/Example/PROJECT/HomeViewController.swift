@@ -13,7 +13,8 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        title = "Home"
+//        title = "主界面"
+        title = NSLocalizedString("主界面", comment: "")
     }
 
     override func didReceiveMemoryWarning() {
