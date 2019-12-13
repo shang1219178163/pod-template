@@ -3,7 +3,7 @@
   PROJECT
 
   Created by Bin Shang on 2019/12/13.
-  Copyright © 2019 CocoaPods. All rights reserved.
+  Copyright © 2019 PROJECT_OWNER. All rights reserved.
 */
-CFBundleDisplayName = "Swift App模板";
+CFBundleDisplayName = "OC App模板";
 NSCameraUsageDescription ="App需要您的相机权限";

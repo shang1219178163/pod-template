@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"Home";
+//    self.title = @"主界面";
+    self.title = NSLocalizedString(@"主界面", nil);
 }
 
 - (void)viewWillAppear:(BOOL)animated{
