@@ -12,8 +12,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/${USER_NAME}/${POD_NAME}.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform = :osx
   s.osx.deployment_target = "10.12"
+  s.swift_version = "5.0"
+  s.requires_arc = true
 
   s.source_files = '${POD_NAME}/Classes/**/*'
 
