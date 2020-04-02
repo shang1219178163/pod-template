@@ -36,14 +36,22 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let contentViewController = ViewController() // or ViewController(nibName:nil, bundle: nil)
         window.contentViewController = contentViewController
     }
+    
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        return true
+    }
+    
+    func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
+        if flag == false {
+            window.makeKeyAndOrderFront(self)
+            return true
+        }
+        return false;
+    }
 
     func applicationWillTerminate(_ aNotification: Notification) {
     // Insert code here to tear down your application
         
-    }
-    
-    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
-        return true
     }
 
 
